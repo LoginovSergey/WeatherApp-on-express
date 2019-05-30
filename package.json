@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-basics",
+  "version": "1.0.0",
+  "description": "course",
+  "main": "test.js",
+  "scripts": {
+    "start": "nodemon test.js",
+    "prod": "node test.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "I'm",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
